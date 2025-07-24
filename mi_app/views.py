@@ -4,13 +4,14 @@ from .models import Producto
 # Create your views here.
 
 def hola(request):
-    return render(request, "hola.html")
+    return render(request, "mi_app/hola.html")
 
 
 def listar_productos(request):
     productos = Producto.objects.all() #query
+    
 
-    return render(request, "lista_de_productos.html",{"productos": productos})
+    return render(request, "mi_app/lista_de_productos.html",{"productos": productos})
 
 
 
