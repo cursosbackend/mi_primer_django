@@ -2,7 +2,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
-*$py.class
+*$py.class\
+**/__pycache__/
+mi_app/__pycache__/
 
 # C extensions
 *.so
