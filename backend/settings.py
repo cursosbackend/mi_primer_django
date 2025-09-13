@@ -29,7 +29,8 @@ ALLOWED_HOSTS = []
 
 CSRF_TRUSTED_ORIGINS = [
     "https://localhost:8000",
-    "https://mi-primer-django.onrender.com/"
+    "https://mi-primer-django.onrender.com/",
+    "http://mi-primer-django.onrender.com/"
 ]   
 
 
